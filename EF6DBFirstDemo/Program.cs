@@ -33,6 +33,7 @@ namespace EF6DBFirstDemo
 
         public static void AddUpdateDeleteEntityInConnectedScenario()
         {
+            Console.WriteLine("0000000000000000000000000");
             Console.WriteLine("1111111111111111111111111");
             Console.WriteLine("5354543543");
             Console.WriteLine("33333333333333333333333333333");
