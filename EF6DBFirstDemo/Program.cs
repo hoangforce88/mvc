@@ -52,7 +52,7 @@ namespace EF6DBFirstDemo
                 context.Students.Remove(newStudent);
                 context.SaveChanges(); // Executes Delete command
             }
-
+            Console.WriteLine("*** 44444444444s ***");
             Console.WriteLine("*** AddUpdateDeleteEntityInConnectedScenario Ends ***");
         }
 
