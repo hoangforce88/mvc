@@ -33,6 +33,7 @@ namespace EF6DBFirstDemo
 
         public static void AddUpdateDeleteEntityInConnectedScenario()
         {
+            Console.WriteLine("33333333333333333333333333333");
             Console.WriteLine("*** tserrer Starts ***");
             Console.WriteLine("*** AddUpdateDeleteEntityInConnectedScenario Starts ***");
 
@@ -53,7 +54,8 @@ namespace EF6DBFirstDemo
                 context.Students.Remove(newStudent);
                 context.SaveChanges(); // Executes Delete command
             }
-
+            Console.WriteLine("*** 44444444444s ***");
+            Console.WriteLine("88888888888888888888");
             Console.WriteLine("*** AddUpdateDeleteEntityInConnectedScenario Ends ***");
         }
 
