@@ -33,6 +33,7 @@ namespace EF6DBFirstDemo
 
         public static void AddUpdateDeleteEntityInConnectedScenario()
         {
+            Console.WriteLine("0000000000000000000000000");
             Console.WriteLine("*** AddUpdateDeleteEntityInConnectedScenario Starts ***");
 
             using (var context = new SchoolDBEntities())
